@@ -1,41 +1,23 @@
-# String Methods in Python
+# String Basics in Python
 
-## upper()
+A string is a sequence of characters enclosed in quotes.
 
-Converts text to uppercase.
-
-```python
-name.upper()
-```
-
-## lower()
-
-Converts text to lowercase.
+## Examples
 
 ```python
-name.lower()
+name = "Gopal"
+city = 'Gorakhpur'
 ```
 
-## title()
+## String Characteristics
 
-Converts first letter of each word to uppercase.
+- Strings are immutable
+- Strings can contain letters, numbers, and symbols
+- Strings support indexing and slicing
 
-```python
-name.title()
-```
+## Common Uses
 
-## replace()
-
-Replaces a word or character.
-
-```python
-name.replace("Gopal","Rahul")
-```
-
-## len()
-
-Returns length of string.
-
-```python
-len(name)
-```
+- User input
+- Text processing
+- File handling
+- Web development
